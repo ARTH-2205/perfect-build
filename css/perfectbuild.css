@@ -1,0 +1,107 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-color: lightgray;
+   background-image: url("household-renovation-professions-set_23-2148658596.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+   width: 90%;
+   max-width: 500px;
+   background: rgba(245, 245, 245, 0.9);  
+   border-radius: 15px;
+   padding: 20px;
+   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.perfectbuild {
+   font-size: 50px;
+   font-weight: bold;
+   color: #2f4f4f;
+   margin-bottom: 20px;
+   text-align: center;
+}
+
+.signin {
+   font-size: 40px;
+   text-align: center;
+   color: #4169e1;
+}
+
+.submitbutton, .loginbutton {
+   width: 75%; 
+   padding: 12px; 
+   background-color: #B87333;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 16px;
+   margin: 15px auto; 
+   display: block; 
+   text-align: center;
+}
+
+.submitbutton:hover {
+   background-color: #DAA520;
+}
+
+.submitbutton:active {
+   opacity: 1.0;
+   background-color: gray;
+}
+
+.Alreadyhaveanaccount {
+   text-align: center;
+}
+
+.label1, .label2, .label3 {
+   font-size: 18px;
+   margin-bottom: 10px;
+   display: block;
+   color: #708090;
+}
+
+.name, .PhoneNumber, .email, .password {
+   width: 100%;
+   padding: 10px;
+   margin-bottom: 15px;
+   border-radius: 5px;
+   border: 2px solid lightgray;
+}
+
+.checkbox-container {
+   display: flex;
+   align-items: center;
+   margin-bottom: 15px;
+}
+
+.checkbox-container input {
+   margin-right: 10px;
+}
+
+.notification {
+   font-size: large;
+   margin: 10px auto; 
+   text-align: center;
+   color: red; 
+   width: fit-content; 
+   padding: 5px 10px;
+}
+
+@media (max-width: 768px) {
+   .container {
+       padding: 15px;
+   }
+}
