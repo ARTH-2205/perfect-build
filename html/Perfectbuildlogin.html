@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/perfectbuildlogin.css"> <!-- Ensure the path is correct -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>PERFECT BUILD LOG-IN</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="perfectbuild">PERFECT BUILD</h1>
+        <h2 class="login">Log in</h2>
+        <form onsubmit="return check(event)">
+            <!-- Username -->
+            <label for="username" class="label1"><i class="fa-solid fa-circle-user"></i> User Name</label>
+            <input type="text" id="username" placeholder="Enter Your Username" class="name" />
+            
+            <!-- Password -->
+            <label for="password" class="label2"><i class="fa-solid fa-lock"></i> Password</label>
+            <input type="password" id="password" placeholder="Enter Your Password" class="password"/>
+            <input type="checkbox" id="togglePassword" class="togglePassword"> Show Password
+
+            <!-- Notification -->
+            <p class="notification " id="notification"></p>
+            
+            <!-- Log-In Button -->
+            <button type="submit" class="loginbutton">Log in</button>
+
+            <!-- Forgot Password -->
+            <p class="forgotpassword"><a href="forgotpassword.html" class="forgotlink">Forgot Password?</a></p>
+            
+            <!-- New-User? -->
+            <p class="newuser"> No account yet? <a href="Perfect Build Sign-up.html"> Create </a></p>
+        </form>
+    </div>
+    <script src="../java script/login.js"></script>
+</body>
+</html>
