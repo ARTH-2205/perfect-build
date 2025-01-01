@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e8f5e9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.page-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #ffffff; /* Keeps the box color consistent */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Gives the box a subtle shadow */
+    border-radius: 10px;
+    padding: 40px;
+}
+
+header, footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #c8e6c9;
+    border-bottom: 2px solid #a5d6a7;
+    border-top: 2px solid #a5d6a7;
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 1em; 
+    color: #777;
+}
+
+.about-header {
+    font-size: 3em; 
+    margin: 0;
+    font-weight: bold;
+    color: lightsteelblue;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: none; /* Already applied on the page container */
+}
+
+h2 {
+    margin-top: 20px;
+    color: lightsteelblue;
+    font-size: 2em; 
+    border-bottom: 1px solid #a5d6a7;
+    padding-bottom: 5px;
+}
+
+p {
+    margin: 15px 0;
+    font-size: 1.2em; 
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    position: relative;
+    padding-left: 25px;
+}
+
+ul li i {
+    position: absolute;
+    left: 0;
+    color: #66bb6a;
+}
+
+.contact-info {
+    margin-top: 30px;
+    border-top: 2px solid #a5d6a7;
+    padding-top: 20px;
+}
+
+a {
+    color: #66bb6a;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    font-size: 1em; 
+    color: #777;
+}

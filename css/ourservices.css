@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    background-color: #e8f5e9;
+}
+
+.perfectbuild {
+    font-size: 50px;
+    font-weight: bold;
+    color: #2f4f4f;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.search-container {
+    padding: 20px;
+    text-align: center;
+}
+
+
+.search-container input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 100%; /* Changed to 100% for better responsiveness */
+    max-width: 400px; /* Limit the max width */
+    transition: border-color 0.3s;
+}
+
+.search-container input:focus {
+    border-color: #1E3A8A; 
+}
+
+.services-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    max-width: 1650px;
+    margin: 0 auto;
+}
+
+.service-box {
+    display: flex;
+    flex-direction: column; /* Initially, column for small screens */
+    align-items: center; /* Center the content for smaller screens */
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+    width: 100%;
+    text-align: left;
+    transition: box-shadow 0.3s;
+}
+
+.service-box:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.service-image {
+    width: 100%; /* Make the image responsive */
+    max-width: 350px;
+    height: auto; /* Keep the aspect ratio */
+    border-radius: 5px;
+    margin-bottom: 20px; /* Add some margin for smaller screens */
+}
+
+.service-content {
+    flex-grow: 1;
+}
+
+h3 {
+    margin: 10px 0;
+    font-weight: 700;
+}
+
+.toggle-description {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #1E3A8A;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: color 0.3s;
+}
+
+.toggle-description:hover {
+    color: #0056b3;
+}
+
+.description {
+    display: none;
+    margin-top: 10px;
+    color: #555;
+}
+
+.description.active {
+    display: block;
+}
+
+.contact-icons {
+    margin-top: 10px;
+}
+
+.contact-icons i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.contact-icons i.fa-envelope {
+    color: #e74c3c;
+}
+
+.contact-icons i.fa-whatsapp {
+    color: #25D366;
+}
+
+.contact-icons a:hover i {
+    opacity: 0.8;
+}
+
+.pricing-contact {
+    font-weight: bold;
+    color: #007BFF;
+    font-size: 1.1em;
+}
+
+/* Flexbox for larger screens */
+@media (min-width: 768px) {
+    .service-box {
+        flex-direction: row; /* Change to row on larger screens */
+        align-items: flex-start; /* Align content at the start */
+    }
+
+    .service-image {
+        width: 350px; /* Fixed width for larger screens */
+        height: 150px;
+        margin-right: 20px; /* Add space between image and content */
+        margin-bottom: 0; /* Remove margin on larger screens */
+    }
+}

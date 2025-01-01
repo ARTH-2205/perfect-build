@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    background-color: #e8f5e9;
+}
+
+.contact-page {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-header {
+    font-size: 50px;
+    font-weight: bold;
+    color: #2f4f4f;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;  
+    justify-content: space-between;
+    align-items: center;      
+}
+
+.contact-form, .contact-info {
+    width: 100%;             
+    max-width: 600px;         
+    padding: 20px;
+    margin-bottom: 30px;      
+}
+
+.contact-form h2, .contact-info h2 {
+    font-size: 28px;
+    color: #2f4f4f;
+    margin-bottom: 20px;
+}
+
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #2f4f4f;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+    border-color: #1E3A8A;
+}
+
+.contact-form .btn-submit {
+    padding: 10px 20px;
+    background-color: #1E3A8A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.contact-form .btn-submit:hover {
+    background-color: #0056b3;
+}
+
+.contact-info p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.contact-info i {
+    color: #1E3A8A;
+    margin-right: 10px;
+}
+
+.contact-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.contact-icons a {
+    font-size: 24px;
+    color: #1E3A8A;
+    transition: color 0.3s;
+}
+
+.contact-icons a:hover {
+    color: #0056b3;
+}
+
+
+@media (max-width: 768px) {
+    .contact-container {
+        align-items: flex-start; 
+    }
+}

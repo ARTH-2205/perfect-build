@@ -1,0 +1,114 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-color: lightgray;
+   background-image: url("home-renomation-flat-composition-with-plumber-fixing-pipes-vector-illustration_1284-80776.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+   width: 90%;
+   max-width: 500px;
+   background: rgba(240, 248, 255, 0.8); 
+   border-radius: 15px;
+   padding: 20px;
+   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.perfectbuild {
+   font-size: 50px;
+   font-weight: bold;
+   color: #2f4f4f;  
+   margin-bottom: 20px;
+   text-align: center;
+}
+
+.login {
+   font-size: 40px;
+   text-align: center;
+   color: #4169e1; 
+   margin-bottom: 20px;
+}
+
+.label1, .label2 {
+   font-size: 18px;
+   margin-bottom: 10px;
+   display: block;
+   color: black;
+}
+
+.name, .password {
+   width: 100%;
+   padding: 10px;
+   margin-bottom: 15px;
+   border-radius: 5px;
+   border: 2px solid lightgray;
+}
+
+.checkbox-container {
+   display: flex;
+   align-items: center;
+   margin-bottom: 15px;
+}
+
+.checkbox-container input {
+   margin-right: 10px;
+}
+
+.notification {
+   font-size: large;
+   margin: 10px auto; 
+   text-align: center;
+   color: red; 
+   width: fit-content; 
+   padding: 5px 10px;   
+}
+
+.forgotpassword {
+   text-align: center;
+   margin-bottom: 15px;
+}
+
+.loginbutton {
+   width: 75%; 
+   padding: 12px; 
+   background-color: gold;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 14px;
+   transition: background-color 0.3s;
+   margin: 15px auto; 
+   display: block; 
+}
+
+.loginbutton:hover {
+   background-color: #DAA520;  
+
+.loginbutton:active {
+   background-color: gray;
+}
+
+.newuser {
+   font-size: 18px;
+   margin: 20px auto;
+   text-align: center;
+}
+
+@media (max-width: 768px) {
+   .container {
+       padding: 15px;
+   }
+}
+}
